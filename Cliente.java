@@ -2,6 +2,7 @@
 
 /**
  *  Representa a un cliente que hace un pedido 
+ *  @autor --Jhoselin Tumiri Quiroz--
  */
 public class Cliente
 {
@@ -50,15 +51,22 @@ public class Cliente
 
     /**
      * representación textual del cliente
+     * Devuelve una cadena formateada con los datos
+    del cliente de la forma indicada 
      */
     public String toString() {
-         
-          
+        return "(%10S)\nNOMBRE: " + nombre +
+                "\nDIRECCION: C/" + direccion +
+                "\nCIUDAD: " + ciudad +
+                "\nPROVINCIA: " +provincia;
+                
+                
+                
     }
+
     
     /**
-     * 
-     */
+    */
     public void print() {
         System.out.println(this.toString());
     }
