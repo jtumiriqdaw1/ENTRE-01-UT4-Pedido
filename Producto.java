@@ -1,6 +1,8 @@
 /**
  *  
- * Modela un producto. Todo producto tiene un nombre y un  precio unidad 
+ * Modela un producto. Todo producto tiene un nombre y un  precio
+ unidad 
+ * @autor --Jhoselin Tumiri Quiroz--
  */
 public class Producto
 {
@@ -29,19 +31,35 @@ public class Producto
         return precio;
     }
     
-    /**
-     * obtiene un nuevo producto copia idéntica del actual
-     */
-    public         obtenerCopia() {
-         
-    }
+    // /**
+     // * obtiene un nuevo producto copia idéntica del actual
+     // */
+    // public String obtenerCopia() {
+        // return new Producto (getNombre); nombre.
+    // }
 
     /**
      * Representación textual de un producto
      * (ver enunciado)
      */
     public String toString() {
+       String cdna = String.format("\n%30s|%6.2f\u20AC unidades", this.nombre, this.precio);
+       return cdna;
         
+       
     }
+    
+    // /**
+     // * An example of a method - replace this comment with your own
+     // *
+     // * @param  y   a sample parameter for a method
+     // * @return     the sum of x and y
+     // */
+    // public void print()
+    // {
+        //para probar toString..
+        //System.out.println(this.toString());
+    // } 
+
 
 }
