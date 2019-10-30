@@ -75,6 +75,7 @@ public class Pedido
     "IMPORTE SIN IVA:", getImporteAntesIva(), "IVA:", getIva(), "IMPORTE TOTAL:",
     getImporteTotal());
     return str;
+    // String str1 = "FECHA PEDIDO:"+fecha.toString()
       
       
  }

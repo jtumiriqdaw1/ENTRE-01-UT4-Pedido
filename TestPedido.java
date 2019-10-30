@@ -35,7 +35,9 @@ public class TestPedido
      * Muestra la información de los dos pedidos (ver enunciado)
      */
     public void mostrarPedidos() {
-        
+        System.out.println("\nPedido 1\n---------------------------" + pedido1.toString());
+        System.out.println("\nPedido 2\n---------------------------" + pedido2.toString());
+       
 
     }
 }
