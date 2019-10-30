@@ -55,19 +55,8 @@ public class Cliente
     del cliente de la forma indicada 
      */
     public String toString() {
-        // return  "\nNOMBRE: " +nombre +
-                // "\nDIRECCION: C/" + direccion +
-                // "\nCIUDAD: " + ciudad +
-                // "\nPROVINCIA: " + provincia +;
-                
-        // String cdna = String.format("\n%10s\n%-10%,\n%10s\n%-10%,
-        // \n%10s\n%-10%,\n%10s,\n%-10%","NOMBRE","DIRECCION",
-        // "CIUDAD", "PROVINCIA", nombre, direccion, ciudad, provincia);
-        // return cdna;
-                
-         String cdna = String.format("\n%10s%-10s\n%10s%-10s\n%10s%-10s\n%10s%-10s"
-         ,"NOMBRE:", nombre, "DIRECCION:C/", direccion, "CIUDAD:", ciudad, "PROVINCIA:", provincia);
-    
+        String cdna = String.format("\n%10s%-10s\n%10s%-10s\n%10s%-10s\n%10s%-10s"
+        ,"NOMBRE:", nombre, "DIRECCION:C/", direccion, "CIUDAD:", ciudad, "PROVINCIA:", provincia);
         return cdna;
                 
               

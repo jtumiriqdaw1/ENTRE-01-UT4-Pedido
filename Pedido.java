@@ -16,7 +16,7 @@ public class Pedido
     /**
      * Constructor  
      */
-    public Pedido()    {
+    public Pedido(Fecha fecha, Datos cliente, LineaPedido linea1)    {
          
     }
 
@@ -30,8 +30,8 @@ public class Pedido
     /**
      * accesor para el cliente
      */
-    public   getCliente() {
-         
+    public String getCliente() {
+         return cliente;
     }
     
     
